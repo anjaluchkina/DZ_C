@@ -5,7 +5,7 @@
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] num = new int[size];
-FillArrayRandomNumbers(num);
+FillArray(num);
 Console.WriteLine("Вот наш массив: ");
 PrintArray(num);
 int count = 0;
@@ -16,7 +16,7 @@ for (int i = 0; i < num.Length; i++)
 
 Console.WriteLine($"всего {num.Length} чисел, {count} из них чётные");
 
-void FillArrayRandomNumbers(int[] num)
+void FillArray(int[] num)
 {
     for (int i = 0; i < num.Length; i++)
     {
