@@ -10,8 +10,8 @@ Console.WriteLine("Вот наш массив: ");
 PrintArray(num);
 int count = 0;
 
-for (int z = 0; z < num.Length; z++)
-    if (num[z] % 2 == 0)
+for (int i = 0; i < num.Length; i++)
+    if (num[i] % 2 == 0)
         count++;
 
 Console.WriteLine($"всего {num.Length} чисел, {count} из них чётные");
