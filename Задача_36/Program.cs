@@ -6,7 +6,7 @@ Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] num = new int[size];
 FillArray(num);
-Console.WriteLine("Вот наш массив: ");
+Console.WriteLine("Массив: ");
 PrintArray(num);
 int sum = 0;
 
