@@ -18,7 +18,7 @@ void PrintArray(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write($"{array[i, j], 3}    ");
         }
         Console.WriteLine("");
     }
