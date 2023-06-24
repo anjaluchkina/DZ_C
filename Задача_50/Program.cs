@@ -41,8 +41,7 @@ void FindElementArray(int[,] findelement, int usernum) // массив, назв
         }
     }
     if (!find) // если переменная find = false, тогда
-        System.Console.WriteLine("Такого значения в массиве нет ");
-    Console.WriteLine("");
+        System.Console.WriteLine("Такого значения в массиве нет");
 }
 
 Console.Clear();
